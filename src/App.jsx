@@ -4,6 +4,9 @@ import HomePage from './Components/HomePage';
 import VideoPage from './Components/VideoPage';
 import Login from './Components/Login';
 import { useEffect, useState } from 'react';
+import { AuthProvider } from './store/auth';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 // Helper function to check authentication status
 const isAuthenticated = () => {
@@ -54,9 +57,23 @@ function App() {
   ]);
 
   return (
-    <div className="App">
+    <AuthProvider>
+   
       <RouterProvider router={router} />
-    </div>
+    
+    <ToastContainer
+            position="top-right"
+            autoClose={3000}
+            hideProgressBar={false}
+            newestOnTop
+            closeOnClick
+            rtl={false}
+            pauseOnFocusLoss
+            draggable
+            pauseOnHover
+            theme="light"
+          />
+    </AuthProvider>
   );
 }
 
