@@ -25,7 +25,7 @@ Make sure you have the following installed on your system:
 ### Steps to Run Locally
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/your-username/virtual-classroom.git](https://github.com/saini-nikhil/Virtual_class_room)
+   git clone https://github.com/saini-nikhil/Virtual_class_room
    cd virtual-classroom
    ```
 
