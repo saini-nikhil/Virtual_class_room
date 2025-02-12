@@ -19,7 +19,6 @@ Virtual Classroom is a web application that enables real-time video conferencing
 ## Installation
 ### Prerequisites
 Make sure you have the following installed on your system:
-- **Node.js** (v14 or later)
 - **npm** or **yarn**
 
 ### Steps to Run Locally
@@ -63,24 +62,15 @@ Make sure you have the following installed on your system:
 ## Deployment
 To deploy the application, you can use **Vercel**, **Netlify**, or **Firebase Hosting**.
 
-### Deploying on Vercel
-1. Install Vercel CLI:
-   ```bash
-   npm install -g vercel
-   ```
-2. Run the deployment command:
-   ```bash
-   vercel
-   ```
+
 
 ## Contributing
 Contributions are welcome! If you'd like to contribute, please fork the repository and submit a pull request.
 
-## License
-This project is licensed under the MIT License.
+
 
 ## Contact
 For any queries or issues, feel free to contact:
-- **GitHub:** [your-username](https://github.com/your-username)
-- **Email:** your-email@example.com
+- **GitHub:** [saini-nikhil](https://github.com/saini-nikhil)
+- **Email:** 1nikhilsaini234@gmail.com
 
